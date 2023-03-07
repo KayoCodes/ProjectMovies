@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A9D214829B30C7A00965064 /* project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9D214829B30C7A00965064 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D214B29B30C7A00965064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9D214D29B30C7A00965064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A9D215229B30C7A00965064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		5A9D214929B30C7A00965064 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A9D214829B30C7A00965064 /* project2.app */,
+				5A9D214829B30C7A00965064 /* Movies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A9D214729B30C7A00965064 /* project2 */ = {
+		5A9D214729B30C7A00965064 /* Movies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9D215C29B30C8200965064 /* Build configuration list for PBXNativeTarget "project2" */;
+			buildConfigurationList = 5A9D215C29B30C8200965064 /* Build configuration list for PBXNativeTarget "Movies" */;
 			buildPhases = (
 				5A9D214429B30C7A00965064 /* Sources */,
 				5A9D214529B30C7A00965064 /* Frameworks */,
@@ -102,12 +102,12 @@
 			);
 			dependencies = (
 			);
-			name = project2;
+			name = Movies;
 			packageProductDependencies = (
 				5A9D216829B329A900965064 /* Nuke */,
 			);
 			productName = project2;
-			productReference = 5A9D214829B30C7A00965064 /* project2.app */;
+			productReference = 5A9D214829B30C7A00965064 /* Movies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A9D214329B30C7900965064 /* Build configuration list for PBXProject "project2" */;
+			buildConfigurationList = 5A9D214329B30C7900965064 /* Build configuration list for PBXProject "Movies" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A9D214729B30C7A00965064 /* project2 */,
+				5A9D214729B30C7A00965064 /* Movies */,
 			);
 		};
 /* End PBXProject section */
@@ -368,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A9D214329B30C7900965064 /* Build configuration list for PBXProject "project2" */ = {
+		5A9D214329B30C7900965064 /* Build configuration list for PBXProject "Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9D215A29B30C8200965064 /* Debug */,
@@ -377,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A9D215C29B30C8200965064 /* Build configuration list for PBXNativeTarget "project2" */ = {
+		5A9D215C29B30C8200965064 /* Build configuration list for PBXNativeTarget "Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9D215D29B30C8200965064 /* Debug */,
