@@ -8,18 +8,20 @@
 import Foundation
 import UIKit
 
-struct Movie{
-   let originalTitle : String
+struct Movie: Decodable{
+   
+    
+   let original_title : String
     let overview: String
     let popularity: Double
-    let poster : URL?
-    let votes : Int
-    let voteAvg : Double
+   let poster_path : URL?
+    let vote_count : Int
+    let vote_average : Double
     
 }
 
 extension Movie{
-    static var MockMovies: [Movie] = [
+  /*  static var MockMovies: [Movie] = [
         Movie(originalTitle: "Knock At The Cabin", overview: "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.", popularity: 3886.366, poster: URL(string: "https://m.media-amazon.com/images/M/MV5BZDA0MzcxZTgtMTAzZC00MGJkLTg3YzItZjMzNjkwOTVlODNlXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg")! , votes: 709, voteAvg: 6.5),
         Movie(originalTitle: "Black Panther: Wakanda Forever", overview: "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.", popularity: 2680.34, poster:URL(string: "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg")!, votes: 3734, voteAvg: 7.4),
         Movie(originalTitle: "Puss in Boots: The Last Wish", overview: "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.", popularity: 2398.547, poster:URL(string: "https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_.jpg")!, votes: 4202, voteAvg: 8.4),
@@ -33,6 +35,10 @@ extension Movie{
     ]
     
     
+   */
     
+}
+struct MovieResponse: Decodable {
     
+    let results: [Movie]
 }
